@@ -42,6 +42,8 @@ Project for the first Computer Architecture lab
 
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/relativeFreq.png?raw=true)
 
+Παρατηρούμε πως για το πρόγραμμα που γράψαμε τουλάχιστον, οι σχετικοί χρόνοι στους 2 επεξεργαστές είναι πρακτικά ίδιοι.
+
 Τρέχοντας το πρόγραμμα για διάφορες τεχνολογίες μνήμης έχουμε:
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memoriesAbsMinor.png?raw=true)
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memoriesAbsTiming.png?raw=true)
