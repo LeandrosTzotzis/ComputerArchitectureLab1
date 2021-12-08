@@ -35,8 +35,11 @@ Project for the first Computer Architecture lab
 Το πρόγραμμα στον MinorCPU χρειάζεται στα 1024MHz 0.009399 δευτερόλεπτα για να τρέξει ενώ στον TimingSimpleCPU στα 1024MHz χρειάζεται 0.026339 δευτερόλεπτα, περίπου 2.8 φορές περισσότερο, πράγμα που εξηγείται από το γεγονός ότι η MinorCPU χρησιμοποιεί pipeline.
 
 β) Τρέχοντας το πρόγραμμα για διάφορες συχνότητες επεξεργαστή έχουμε τα εξής αποτελέσματα (με πορτοκαλί απεικονίζεται ο TimingSimple και με μπλε ο MinorCPU:
+
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/freqAbs.png?raw=true)
+
 Για να κάνουμε πιο χρήσιμες συγκρίσεις </br> κανονικοποιούμε τα αποτελέσματα διαιρώντας τα με το μεγαλύτερο χρόνο που χρειάστηκε (δηλαδή με τον χρόνο στα 64MHz):
+
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/relativeFreq.png?raw=true)
 
 Τρέχοντας το πρόγραμμα για διάφορες τεχνολογίες μνήμης έχουμε:
