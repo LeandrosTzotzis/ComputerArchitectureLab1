@@ -45,6 +45,7 @@ Project for the first Computer Architecture lab
 Τρέχοντας το πρόγραμμα για διάφορες τεχνολογίες μνήμης έχουμε:
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memoriesAbsMinor.png?raw=true)
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memoriesAbsTiming.png?raw=true)
+
 Για να συγκρίνουμε την ευαισθησία κανονικοποιούμε τα αποτελέσματα βάσει του μεγαλύτερου χρόνου που χρειάστηκε σε κάθε τύπο επεξεργαστή κανονικοποιούμε τα αποτελέσματα βάσει του μεγαλύτερου χρόνου που χρειάστηκε σε κάθε τύπο επεξεργαστή:
 
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memRelativeTimes.png?raw=true)
