@@ -13,6 +13,7 @@ Project for the first Computer Architecture lab
     - TLB:
         1kB 8-way associative
     - Level 2 1MB 16-way associative
+
 Μπορούμε να αλλάξουμε τη συχνότητα λειτουργίας του επεξεργαστή με τη παράμετρο --cpu-freq
 
 Ερώτημα 2:
