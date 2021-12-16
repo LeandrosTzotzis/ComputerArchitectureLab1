@@ -3,6 +3,7 @@ Project for the first Computer Architecture lab
 
 
 Ερώτημα 1:
+
 Τρέχοντας το script starter_se.py με τις παραμέτρους που δίνονται έχουμε:
  * Τύπος επεξεργαστή: Αρχιτεκτονική ARM, τύπος επεξεργαστή minor 1GHz με 1 πυρήνα
  * Μνήμη: DDR3 1600MHz 8x8 dual channel 2GB χωρίς ranks
@@ -23,9 +24,11 @@ Project for the first Computer Architecture lab
  
  
  Ερώτημα 3:
+ 
  Το CPI που φαίνεται αυτόματα στο αρχείο stats.txt είναι 6.991048. Εφαρμόζοντας την εξίσωση που μας δίνεται με sim_insts = 5027, system.cpu_cluster.cpus.dcache.overall_misses::total = 177, system.cpu_cluster.cpus.icache.overall_misses::total = 327 και system.cpu_cluster.l2.overall_accesses::total = 474 όμως το CPI είναι 6.316 093 097
  
  Ερώτημα 4:
+ 
  Στον gem5 τα in-order μοντέλα cpu είναι:
   * BaseSimpleCPU: βασικό μοντέλο cpu το οποίο δε χρησιμοποιείται από μόνο του, αλλά χρησιμοποιείται για να οριστούν άλλα μοντέλα cpu βάσει αυτού.
   * AtomicSimpleCPU: κληρονομεί χαρακτηριστικά από το BaseSimpleCPU και χρησιμοποιεί το Atomic μοντέλο πρόσβασης στη μνήμη, που είναι πολύ γρήγορο και δεν μοντελοποιεί συγκρούσεις για πόρους ή αναμονές σε ουρές.
