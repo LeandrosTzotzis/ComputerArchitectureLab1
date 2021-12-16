@@ -33,7 +33,7 @@ Project for the first Computer Architecture lab
   * BaseSimpleCPU: βασικό μοντέλο cpu το οποίο δε χρησιμοποιείται από μόνο του, αλλά χρησιμοποιείται για να οριστούν άλλα μοντέλα cpu βάσει αυτού.
   * AtomicSimpleCPU: κληρονομεί χαρακτηριστικά από το BaseSimpleCPU και χρησιμοποιεί το Atomic μοντέλο πρόσβασης στη μνήμη, που είναι πολύ γρήγορο και δεν μοντελοποιεί συγκρούσεις για πόρους ή αναμονές σε ουρές.
   * TimingSimpleCPU: κληρονομεί επίσης χαρακτηριστικά από το BaseSimpleCPU και χρησιμοποιεί το Timing μοντέλο μνήμης, που είναι το πιο λεπτομερές που υποστηρίζει ο gem5. Μοντελοποιεί resource contentions και αναμονές σε ουρές για πρόσβαση στη μνήμη.
-  * MinorCPU: CPU που χρησιμοποιεί pipeline σε 4 στάδια: fetch1, fetch2, decode και execute
+  * MinorCPU: CPU που χρησιμοποιεί pipeline σε 4 στάδια: fetch1, fetch2, decode και execute. Χρησιμοποιεί επίσης branch predictor.
   
 α) Κάνουμε compile για ARM και τρέχουμε σαν Benchmark το πρόγραμμα test2.c στον gem5 με τα 2 μοντέλα CPU.
 Το πρόγραμμα στον MinorCPU χρειάζεται στα 1024MHz 0.009399 δευτερόλεπτα για να τρέξει ενώ στον TimingSimpleCPU στα 1024MHz χρειάζεται 0.026339 δευτερόλεπτα, περίπου 2.8 φορές περισσότερο, πράγμα που εξηγείται από το γεγονός ότι η MinorCPU χρησιμοποιεί pipeline.
