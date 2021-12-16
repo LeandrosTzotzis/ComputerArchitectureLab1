@@ -42,7 +42,7 @@ Project for the first Computer Architecture lab
 
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/relativeFreq.png?raw=true)
 
-Παρατηρούμε πως για το πρόγραμμα που γράψαμε τουλάχιστον, οι σχετικοί χρόνοι στους 2 επεξεργαστές είναι πρακτικά ίδιοι.
+Παρατηρούμε πως για το πρόγραμμα που γράψαμε τουλάχιστον, οι σχετικοί χρόνοι στους 2 επεξεργαστές είναι πρακτικά ίδιοι, πράγμα που βέβαια ενδέχεται να έχει να κάνει με το πρόγραμμα που χρησιμοποιήσαμε.
 
 Τρέχοντας το πρόγραμμα για διάφορες τεχνολογίες μνήμης έχουμε:
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memoriesAbsMinor.png?raw=true)
@@ -52,4 +52,4 @@ Project for the first Computer Architecture lab
 
 ![alt text](https://github.com/LeandrosTzotzis/ComputerArchitectureLab1/blob/main/memRelativeTimes.png?raw=true)
 
-Γίνεται ξεκάθαρο πως ο Minor επεξεργαστής είναι πιο ευαίσθητος στις αλλαγές της μνήμης.
+Γίνεται ξεκάθαρο πως ο Minor επεξεργαστής είναι πιο ευαίσθητος στις αλλαγές της μνήμης. Αυτό συμβαίνει γιατί ο MinorCPU χρησιμοποιεί pipeline οπότε σε γενικές γραμμές εκτελεί εντολές πιο γρήγορα, πράγμα που σημαίνει πως η μνήμη λειτουργεί σαν bottleneck πιο συχνά. Δηλαδή στον ίδιο χρόνο που οι δύο επεξεργαστές περιμένουν δεδομένα από τη μνήμη ο MinorCPU θα έτρεχε πολλές παραπάνω εντολές.
